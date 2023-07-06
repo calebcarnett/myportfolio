@@ -1,13 +1,13 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImArrowRight2 } from "react-icons/im";
 
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "center" }}>
             Hi Everyone, I am <span className="purple">Caleb Carnett </span>
             from <span className="purple"> North Bethesda, Maryland.</span>
             <br /> Studying software development full time.
@@ -19,19 +19,15 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImArrowRight2 /> Play Pickleball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies and Series
+              <ImArrowRight2 /> Watching Movies and Series
             </li>
             <li className="about-activity">
-              <ImPointRight /> Going on Hikes
+              <ImArrowRight2 /> Going on Hikes
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Doubt is only removed by repetition"{" "}
-          </p>
         </blockquote>
       </Card.Body>
     </Card>

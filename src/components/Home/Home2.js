@@ -15,18 +15,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and my curiosity in tech led me to
-              pursure this career
+              My curiosity and love for learning led me to pursure this career.
               <br />
-              <b className="purple"> Javascript </b>
-              <i>is my main programming language</i>
+              <i>
+                <b className="purple">Javascript </b>
+                is my main programming language.
+              </i>
               <br />
               <br />
               My field of Interest lies in&nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 continuing to explore the world of{" "}
-                <b className="purple">Web Development</b>
+                <b className="purple">Web Development.</b>
               </i>
               <br />
               <br />
@@ -37,7 +38,7 @@ function Home2() {
                 <b className="purple"> </b>
               </i>
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js.</b>
               </i>
             </p>
           </Col>
